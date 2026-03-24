@@ -9,9 +9,6 @@ public class Player : MonoBehaviour
     public Camera cam;
     public NavMeshAgent agente; 
 
-  
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0)){
